@@ -1,0 +1,273 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*for home page heading*/
+/*h1 {
+ color: red;
+}*/
+
+.className {
+  color: red;
+}
+
+.home-container {
+  background-image: ('/images/products/13.jpg'); 
+  background-color: white;
+  /* Adjust path if needed */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  display: flex;
+ 
+  justify-content: center;
+  text-align: center;
+}
+
+/*for header page*/
+
+/* Header.css */
+
+/* Style for the header element with class "header" */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Style for the header element with id "main-header" */
+#main-header {
+  border-bottom: 2px solid #444;
+}
+
+/* Style for the h1 element with class "header-title" */
+.header-title {
+  margin: 0;
+  font-size: 2rem;
+  color: blue;
+}
+
+/* Style for the nav element with class "header-nav" */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* for productcard */
+
+/* Ensure all cards have the same height */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures even spacing */
+  align-items: center;
+  height: 100%; /* Ensure consistent height */
+  border: 1px solid rgb(244, 22, 22);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Ensure images inside cards are uniform */
+.card-img-top {
+  width: 100%; /* Make image stretch to full width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+
+/* Make sure card bodies have equal height */
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Ensure button width consistency */
+.btn-block {
+  width: 100%;
+}
+
+
+.disease-detail-container {
+  margin-top: 50px; /* Moves the entire content down */
+  padding: 20px;
+}
+
+.disease-image {
+  margin-top: 20px; /* Moves the image down */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.disease-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.disease-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.disease-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .disease-detail-container {
+      text-align: center;
+  }
+
+  .disease-image {
+      margin-top: 10px;
+      width: 80%;
+  }
+}
+
+
+
+.disease-detail-container {
+  background-color: #E3F2FD; /* Soft medical blue */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* register */
+
+/* Apply styles only to the registration page */
+.register-container {
+  max-width: 500px; /* Reduce width for better alignment */
+  margin: 30px auto; /* Move content up */
+  padding: 25px; /* Keep spacing */
+  background-color: #007BFF; /* Blue background */
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Center text in labels */
+.register-container .form-label, 
+.register-container h2 {
+  text-align: center;
+  display: block;
+}
+
+/* Style inputs */
+.register-container .form-control {
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Style the checkbox */
+.register-container .form-check {
+  text-align: center;
+}
+
+/* Style the submit button */
+.register-container .btn-success {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/*  Location */
+.heading {
+  margin: auto;
+  font-size: 40px;
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+
+
+  
