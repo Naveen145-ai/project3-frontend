@@ -82,27 +82,27 @@ export default function Header() {
         {/* Contact Us */}
         <Nav>
           <Nav.Link as={Link} to="/contact" className="text-white font-weight-bold">
-            📞 Contact Us
+            📞 Contact
           </Nav.Link>
         </Nav>
 
         {/* Emergency Call */}
         <Nav>
           <Nav.Link href="tel:+911" className="text-white font-weight-bold">
-            🚨 Emergency: 911
+            🚨 Emergency
           </Nav.Link>
         </Nav>
 
         {/* About Us */}
         <Nav>
           <Nav.Link as={Link} to="/about" className="text-white font-weight-bold">
-            🏥 About Us
+            🏥 About
           </Nav.Link>
         </Nav>
 
         <Nav>
   <Nav.Link as={Link} to="/location" className="text-white font-weight-bold">
-    📍 Our Location
+    📍Location
   </Nav.Link>
 </Nav>
 
